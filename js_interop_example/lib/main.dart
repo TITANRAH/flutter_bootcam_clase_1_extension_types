@@ -30,11 +30,15 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: TextButton(
+        child: MaterialButton(
           onPressed: () {},
+          color: Colors.blue,
           child: const Text(
             'Pay',
-            style: TextStyle(fontSize: 20),
+            style: TextStyle(
+              fontSize: 20,
+              color: Colors.white,
+            ),
           ),
         ),
       ),
